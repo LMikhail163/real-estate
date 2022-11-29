@@ -11,8 +11,6 @@ const PropertyDetails = () => {
     return house.id === parseInt(id);
   });
 
-  
-
   return (
     <section>
       <div className="container mx-auto min-h-[800px] mb-14">
@@ -55,7 +53,7 @@ const PropertyDetails = () => {
               </div>
               <div>
                 <div className='font-bold text-lg'>{house.agent.name}</div>
-                <Link to='' className='text-violet-700 text-sm'>
+                <Link to='/real-estate' className='text-violet-700 text-sm'>
                   View Listing
                 </Link>
               </div>
